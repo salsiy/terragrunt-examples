@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      pull-requests: write   # allow comment on PRs
+      issues: write  
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
