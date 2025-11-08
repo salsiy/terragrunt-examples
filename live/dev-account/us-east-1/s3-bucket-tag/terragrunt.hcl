@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "../../../modules/s3-bucket-object-tag"
+  source = "${get_repo_root()}/modules/s3-bucket-object-tag"
 }
 
 locals {
