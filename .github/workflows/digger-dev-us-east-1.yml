@@ -20,7 +20,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Digger with terragrunt include patterns fix
-        uses: salsiy/digger@fix/terragrunt-include-patterns
+        #uses: salsiy/digger@fix/terragrunt-include-patterns
+        uses: diggerhq/digger@vLatest
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
