@@ -1,5 +1,5 @@
 app:
-  name: sample-app
+  name: sample-app2
   object_key: config/sample-app.json
   debug: true
   version: 1.2.3
